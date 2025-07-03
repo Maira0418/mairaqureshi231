@@ -20,7 +20,7 @@
 ### 1. 📋 Task Manager CLI App
 A simple command-line application to manage daily to-do tasks. Add, delete, and view your tasks with ease.
 
-🔗 [GitHub Repo](https://github.com/Maira0418/task-manager)
+🔗 [GitHub Repo](https://github.com/Maira0418/mairaqureshi231/blob/a73589f6506fea74a0664e70feca78b96c4b0577/task-manager)
 
 ---
 
@@ -34,7 +34,7 @@ Track and categorize daily expenses, store them in memory, and get total summari
 ### 3. 📮 Contact Book
 A Python mini contact database app to store names, phone numbers, and emails. You can search or view your saved contacts anytime.
 
-🔗 [GitHub Repo](https://github.com/Maira0418/contact-book)
+🔗 [GitHub Repo](https://github.com/Maira0418/mairaqureshi231/blob/a73589f6506fea74a0664e70feca78b96c4b0577/contact-book)
 
 ---
 
