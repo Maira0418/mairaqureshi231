@@ -27,7 +27,7 @@ A simple command-line application to manage daily to-do tasks. Add, delete, and 
 ### 2. 📊 Expense Tracker
 Track and categorize daily expenses, store them in memory, and get total summaries. Ideal for learning file handling and logic building.
 
-🔗 [GitHub Repo](https://github.com/Maira0418/expense_tracker)
+🔗 [GitHub Repo](https://github.com/Maira0418/mairaqureshi231/blob/8277aa6028cd4b92fc88cf7b6f4dbc5c0e7507e9/Expense_tracker)
 
 ---
 
