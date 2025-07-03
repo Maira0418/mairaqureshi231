@@ -41,7 +41,7 @@ A Python mini contact database app to store names, phone numbers, and emails. Yo
 ## 📫 Contact Me
 
 - 📧 Email: qureshimaira9@gmail.com  
-- 🌐 LinkedIn: [linkedin.com/in/mairaqureshi-dm](https://linkedin.com/in/mairaqureshi-dm)
+- 🌐 LinkedIn: [linkedin.com/in/mairaqureshi-dm](https://linkedin.com/in/mairaqureshi-dm/)
 
 ---
 
