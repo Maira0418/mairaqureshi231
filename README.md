@@ -1,4 +1,4 @@
-👋 Hi, I'm Maira Qureshi!
+# 👋 Hi, I'm Maira Qureshi!
 
 🎓 Junior Python Developer  
 💻 Passionate about solving real-world problems through code.  
@@ -27,14 +27,14 @@ A simple command-line application to manage daily to-do tasks. Add, delete, and 
 ### 2. 📊 Expense Tracker
 Track and categorize daily expenses, store them in memory, and get total summaries. Ideal for learning file handling and logic building.
 
-🔗 [GitHub Repo](https://github.com/Maira0418/expense-tracker)
+🔗 [GitHub Repo](https://github.com/Maira0418/expense_tracker)
 
 ---
 
 ### 3. 📮 Contact Book
 A Python mini contact database app to store names, phone numbers, and emails. You can search or view your saved contacts anytime.
 
-🔗 [GitHub Repo](https://github.com/Maira0418/contact_book)
+🔗 [GitHub Repo](https://github.com/Maira0418/contact-book)
 
 ---
 
