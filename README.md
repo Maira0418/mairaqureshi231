@@ -1,12 +1,12 @@
-Hi, I'm Maira Qureshi! 
+👋 Hi, I'm Maira Qureshi!
 
-🎓 Junior Python Developer   
+🎓 Junior Python Developer  
 💻 Passionate about solving real-world problems through code.  
 📚 Currently exploring Python, GitHub, and practical software projects.
 
 ---
 
-## 🧠 Skills 
+## 🧠 Skills
 
 - ✅ Python (Loops, Functions, OOP)
 - ✅ Git & GitHub
@@ -15,32 +15,32 @@ Hi, I'm Maira Qureshi!
 
 ---
 
-## 🚀 Featured Projects 
+## 🚀 Featured Projects
 
 ### 1. 📋 Task Manager CLI App
-A simple command-line application to manage daily to-do tasks. Add, delete, view tasks with Python.
+A simple command-line application to manage daily to-do tasks. Add, delete, and view your tasks with ease.
 
-🔗 [GitHub Repo](https://github.com/maira0418/task-manager)
+🔗 [GitHub Repo](https://github.com/Maira0418/task-manager)
 
 ---
 
 ### 2. 📊 Expense Tracker
-Track and categorize daily expenses, store them in a file, and get monthly reports.
+Track and categorize daily expenses, store them in memory, and get total summaries. Ideal for learning file handling and logic building.
 
-🔗 [GitHub Repo](https://github.com/maira0418/expense-tracker)
+🔗 [GitHub Repo](https://github.com/Maira0418/expense-tracker)
 
 ---
 
 ### 3. 📮 Contact Book
-A Python mini-database app to store names, phone numbers, and emails. Search or edit them easily!
+A Python mini contact database app to store names, phone numbers, and emails. You can search or view your saved contacts anytime.
 
-🔗 [GitHub Repo](https://github.com/maira0418/contact-book)
+🔗 [GitHub Repo](https://github.com/Maira0418/contact_book)
 
 ---
 
-## 📫 Contact Me 
+## 📫 Contact Me
 
-- 📧 Email: qureshimaira9@gmail.com
+- 📧 Email: qureshimaira9@gmail.com  
 - 🌐 LinkedIn: [linkedin.com/in/mairaqureshi-dm](https://linkedin.com/in/mairaqureshi-dm)
 
 ---
