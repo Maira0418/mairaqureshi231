@@ -1,35 +1,71 @@
-# expense_tracker.py
+# 💸 Expense Tracker (OOP + CSV)
 
-expenses = []
+"""
+A simple Python app to track daily expenses. It uses OOP to manage entries and saves data to a CSV file.
+"""
 
-def add_expense():
-    name = input("Expense name: ")
-    amount = float(input("Amount (PKR): "))
-    category = input("Category: ")
-    expenses.append({"name": name, "amount": amount, "category": category})
-    print("Expense added.")
+import csv
+import os
 
-def view_expenses():
-    total = 0
-    print("\n--- Expenses ---")
-    for e in expenses:
-        print(f"{e['name']} - PKR {e['amount']} ({e['category']})")
-        total += e['amount']
-    print(f"Total: PKR {total}")
+class Expense:
+    def __init__(self, description, category, amount):
+        self.description = description
+        self.category = category
+        self.amount = float(amount)
+
+    def to_list(self):
+        return [self.description, self.category, str(self.amount)]
+
+class ExpenseTracker:
+    def __init__(self, filename="expenses.csv"):
+        self.filename = filename
+        if not os.path.exists(self.filename):
+            with open(self.filename, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(["Description", "Category", "Amount"])
+
+    def add_expense(self, expense):
+        with open(self.filename, 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(expense.to_list())
+
+    def show_expenses(self):
+        print("\n📊 All Expenses:")
+        with open(self.filename, 'r') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                print(" | ".join(row))
+
 
 def main():
+    tracker = ExpenseTracker()
+
     while True:
-        print("\n1. Add Expense")
-        print("2. View Expenses")
-        print("3. Exit")
-        choice = input("Choose an option: ")
+        print("""
+--- Expense Tracker Menu ---
+1. Add Expense
+2. View Expenses
+3. Exit
+        """)
+        choice = input("Choose an option (1-3): ")
+
         if choice == '1':
-            add_expense()
+            desc = input("Enter description: ").strip()
+            cat = input("Enter category: ").strip()
+            amt = input("Enter amount (Rs): ").strip()
+            try:
+                expense = Expense(desc, cat, amt)
+                tracker.add_expense(expense)
+                print("✅ Expense added.")
+            except ValueError:
+                print("❌ Invalid amount.")
         elif choice == '2':
-            view_expenses()
+            tracker.show_expenses()
         elif choice == '3':
+            print("👋 Exiting...")
             break
         else:
-            print("Invalid option.")
+            print("❌ Invalid option.")
 
-main()
+if __name__ == '__main__':
+    main()
